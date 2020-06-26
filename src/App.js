@@ -4,6 +4,7 @@ import log from './login';
 import signup from './signup';
 import NAV from './nav.js';
 import bmicalculator from './bmicalculator.js';
+import caloriecalc from './caloriecalc.js';
 import home from './home'
 import Footer from './footer.js'
 import faq from './faq'
@@ -21,6 +22,7 @@ function App() {
           
           <Route path='/signup' exact component={signup} /> 
           <Route path='/bmicalculator' exact component={bmicalculator} /> 
+          <Route path='/caloriecalc' exact component={caloriecalc} /> 
           <Route path='/faq' exact component={faq}/>
         </Switch>    
       </div>
