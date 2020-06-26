@@ -15,6 +15,7 @@ function NAV(){
                 
                 <Link id='option' to='/login'><li>LOGIN</li></Link>
                 <Link id='option' to='/bmicalculator'><li>BMI CALCULATOR</li></Link>
+                <Link id='option' to='/caloriecalc'><li>CALORIE CALCULATOR</li></Link>
                 <Link id='option' to='/faq'><li>FAQ</li></Link>
             </ul>
         </div>
